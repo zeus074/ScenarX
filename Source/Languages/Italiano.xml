@@ -1,0 +1,210 @@
+
+<Labels>
+	<MainMnu>
+		<New>Nuovo</New>
+		<Open>Apri</Open>
+		<Recent>Recente</Recent>
+		<Save>Salva</Save>
+		<Exit>Esci</Exit>
+		<Option>Opzioni</Option>
+		<Duplicate>Avverti indirizzi duplicati</Duplicate>
+		<Comunication>Comunicazione</Comunication>
+		<Language>Lingua</Language>
+		<Update>Cerca aggiornamenti</Update>
+	</MainMnu>
+	<Text>
+		<LngCap>Seleziona la lingua</LngCap>
+		<SrvPort>Porta Server</SrvPort>
+		<List>Lista comandi scenario</List>
+		<NoName>Scenario senza nome</NoName>
+		<New>Nuovo</New>
+		<FrOpen>Comando OPEN</FrOpen>
+		<Lighting>Illuminazione</Lighting>
+		<Automation>Automazione</Automation>
+		<Thermo>Termoregolazione</Thermo>
+		<Video>Citofonia</Video>
+		<Aux>Ausiliari</Aux>
+		<Sound>Diffusione sonora</Sound>
+		<What>Cosa</What>
+		<Option>Opzioni</Option>
+		<Where>Dove</Where>
+		<OpenCmd>Comando Open</OpenCmd>
+		<FrScen>Centralina Scenari</FrScen>
+		<Virt>Modello "Virt."</Virt>
+		<Manualprg>Programmazione manuale scenario</Manualprg>
+		<StartDelay>Ritardo inizio programmazione (sec.)</StartDelay>
+		<TimedDelay>Ritardo dopo comando temporizzato (sec.)</TimedDelay>
+		<GroupDelay>Ritardo dopo comando gruppo (sec.)</GroupDelay>
+		<CommandDelay>Ritardo dopo altro comando (sec.)</CommandDelay>
+		<UpdChk>Controllo in corso ...</UpdChk>
+		<UpdReady>Aggiornamento disponibile</UpdReady>
+		<UpdAct>Versione attuale</UpdAct>
+		<UpdNew>Versione server</UpdNew>
+		<UpdDwn>Scarica la nuova versione</UpdDwn>
+		<NoUpd>Nessun aggiornamento disponibile
+Il programma e' aggiornato.</NoUpd>
+		<UpdErr>Impossibile trovare la pagina.
+Controllare manualmente.</UpdErr>
+		<Link>Link al sito del programma.</Link>
+		<SctAll>Seleziona tutti</SctAll>
+		<WaitAck>Tempo attesa Ack./Nack. (sec.)</WaitAck>
+		<Retry>Numero di tentativi controllo Ack. (sec.)</Retry>
+		<FileLoad>File caricato</FileLoad>
+		
+	</Text>
+	<Button>
+		<SendCmd>Invia -> Scs</SendCmd>
+		<Insert>Inserisci su scenario</Insert>
+		<Lock>Blocca</Lock>
+		<Unlock>Sblocca</Unlock>
+		<Activate>Attiva scenario</Activate>
+		<Activate2>Attiva scenario ...</Activate2>
+		<Delete>Elimina scenario</Delete>
+		<Deleteall>Elimina tutti</Deleteall>
+		<Program>Programma lo scenario</Program>
+		<Remove>Rimuovi</Remove>
+		<Removeall>Rimuovi tutti</Removeall>
+		<Chk>Controlla errori</Chk>
+		<DelProg>Elimina prima</DelProg>
+		<Start>Start</Start>
+		<Stop>Stop</Stop>
+		<Program2>Programma selezionati</Program2>
+	</Button>
+	<Message>
+		<Open>Apri</Open>
+		<Save>Salva</Save>
+		<NotFound>il file</NotFound>
+		<NotFound2>e' stato spostato o non esiste piu'.</NotFound2>
+		<Dirty>Il File scenari e' stato modificato ma non salvato.
+Vuoi continuare senza salvare le modifiche ?</Dirty>
+		<DirtyCap>File non salvato</DirtyCap>
+		<StatDis>Disconnesso dal Server</StatDis>
+		<StatCon>Connesso con</StatCon>
+		<Ssck>SuperSocket</Ssck>
+		<Sck>Socket comandi</Sck>
+		<WaitCon>Attesa Connessione . . .</WaitCon>
+		<NoAck>Mancata risposta ACK dopo 3 tentativi.</NoAck>
+		<NoCon>Connessione non disponibile</NoCon>
+		<IncOpen>Codice open non corretto</IncOpen>
+		<ErrCmd>Errore su comando</ErrCmd>
+		<CmdOk>Comandi accettati</CmdOk>
+		<Sent>Inviato</Sent>
+		<Deleted>Cancellato.</Deleted>
+		<Programmed>Programmato.</Programmed>
+		<EndProgErr>Fine programmazione non accettato</EndProgErr>
+		<EndProgOk>Stop programmazione scenario</EndProgOk>
+		<ErrProg>Programmazione non accettata</ErrProg>
+		<InProg>In Programmazione scenario</InProg>
+		<DelAll>Vuoi cancellare tutti gli scenari dalla centralina ?</DelAll>
+		<DelAll2>Vuoi cancellare tutti i comandi dello scenario ?</DelAll2>
+		<DelScen>Vuoi cancellare lo scenario N.</DelScen>
+		<DelScen2>dalla centralina ?</DelScen2>
+		<DelCap>Conferma eliminazione</DelCap>
+		<FullScen>Scenario pieno, 100 automazioni raggiunte</FullScen>
+		<Commands>Comandi</Commands>
+		<VirtErr>Impossibile trovare il modulo scenari</VirtErr>
+		<VirtErr2>serie virt.</VirtErr2>
+		<VirtErr3>L'indirizzo e' sbagliato o il modulo scenari non e' modello virt.
+Continuo l'invio delle frame ?</VirtErr3>
+		<VirtErr4>Impossibile verificare modulo, Continuare?</VirtErr4>
+		<Duplicate>Indirizzo gia' presente, inserirlo comunque ?</Duplicate>
+		<Duplicate2>Indirizzo duplicato</Duplicate2>
+		<OldVer>Il file caricato e' stato creato con una vecchia versione del programma,
+Si consiglia di controllare i parametri e di salvarlo con la nuova versione per avere le nuove funzionalita'.</OldVer>
+	</Message>
+	<scs>
+		<Gen>Generale</Gen>
+		<Amb>Ambiente</Amb>
+		<Point>Punto</Point>
+		<Gr>Gruppo</Gr>
+		<Src>Sorgente</Src>
+		<Bus>Montante Privato</Bus>
+		<Bus2>Bus locale</Bus2>
+		<Speed>Velocita</Speed>
+		<Speed2>Veloce</Speed2>
+		<Level>Livello</Level>
+		<Temperature>Temperatura</Temperature>
+		<Program>Programma</Program>
+		<Scenario>Scenario</Scenario>
+		<Volume>Volume</Volume>
+		
+
+		<Lig0>Off / Off(Vel)</Lig0>
+		<Lig1>On / On(Vel)</Lig1>
+		<Lig2>20%</Lig2>
+		<Lig3>30%</Lig3>
+		<Lig4>40%</Lig4>
+		<Lig5>50%</Lig5>
+		<Lig6>60%</Lig6>
+		<Lig7>70%</Lig7>
+		<Lig8>80%</Lig8>
+		<Lig9>90%</Lig9>
+		<Lig10>100%</Lig10>
+		<Lig11>ON per 1 Min</Lig11>
+		<Lig12>ON per 2 Min</Lig12>
+		<Lig13>ON per 3 Min</Lig13>
+		<Lig14>ON per 4 Min</Lig14>
+		<Lig15>ON per 5 Min</Lig15>
+		<Lig16>ON per 15 Min</Lig16>
+		<Lig17>ON per 30 Sec</Lig17>
+		<Lig18>ON per 0.5 Sec</Lig18>
+		<Lig20>Lampeggio per 0.5 Sec</Lig20>
+		<Lig21>Lampeggio per 1 Sec</Lig21>
+		<Lig22>Lampeggio per 1.5 Sec</Lig22>
+		<Lig23>Lampeggio per 2 Sec</Lig23>
+		<Lig24>Lampeggio per 2.5 Sec</Lig24>
+		<Lig25>Lampeggio per 3 Sec</Lig25>
+		<Lig26>Lampeggio per 3.5 Sec</Lig26>
+		<Lig27>Lampeggio per 4 Sec</Lig27>
+		<Lig28>Lampeggio per 4.5 Sec</Lig28>
+		<Lig29>Lampeggio per 5 Sec</Lig29>
+		<Lig30>Dimmer +1 / +X</Lig30>
+		<Lig31>Dimmer -1 / -X</Lig31>
+
+		<Aut0>Stop</Aut0>
+		<Aut1>Su</Aut1>
+		<Aut2>Giu</Aut2>
+
+		<Tem0>Centrale Prot. termica</Tem0>
+		<Tem1>Centrale antigelo</Tem1>
+		<Tem2>Centrale OFF</Tem2>
+		<Tem3>Centrale Temperatura ..</Tem3>
+		<Tem4>Centrale Scenario risc.</Tem4>
+		<Tem5>Centrale scenario condiz.</Tem5>
+		<Tem6>Centrale ultimo scenario</Tem6>
+		<Tem7>Centrale Prog. risc.</Tem7>
+		<Tem8>Centrale Prog. condiz.</Tem8>
+		<Tem9>Centrale ultimo programma</Tem9>
+		<Tem10>Zona Prot. termica</Tem10>
+		<Tem11>Zona Antigelo</Tem11>
+		<Tem12>Zona OFF</Tem12>
+		<Tem13>Zona Automatico</Tem13>
+		<Tem14>Zona Temperatura ..</Tem14>
+		<Tem15>Zona Sblocco sonda in locale</Tem15>
+
+		<Vid0>Apri serratura</Vid0>
+		<Vid1>Accendi luce scale</Vid1>
+		<Vid2>Spegni luce scale</Vid2>
+
+		<Aux0>Off</Aux0>
+		<Aux1>On</Aux1>
+		<Aux2>Toggle</Aux2>
+		<Aux3>Stop</Aux3>
+		<Aux4>Su</Aux4>
+		<Aux5>Giu</Aux5>
+		<Aux6>Abilitato</Aux6>
+		<Aux7>Disabilitato</Aux7>
+		<Aux8>Reset_GEN</Aux8>
+		<Aux9>Reset_BI</Aux9>
+		<Aux10>Reset_TRI</Aux10>
+
+		<Snd0>Ampli ON / so. banda base</Snd0>
+		<Snd1>Ampli ON / so. stereo canale</Snd1>
+		<Snd2>Ampli OFF / so. banda base</Snd2>
+		<Snd3>Ampli OFF / so. stereo canale</Snd3>
+		<Snd4>cicla so. banda base</Snd4>
+		<Snd5>cicla so. stereo canale</Snd5>
+		<Snd6>Imposta Volume ampli.</Snd6>
+
+	</scs>
+</Labels>

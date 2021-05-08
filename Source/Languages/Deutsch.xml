@@ -1,0 +1,209 @@
+
+<Labels>
+	<MainMnu>
+		<New>Neu</New>
+		<Open>Oeffnen</Open>
+		<Recent>Rezent</Recent>
+		<Save>Speichern</Save>
+		<Exit>Esc</Exit>
+		<Option>Optionen</Option>
+		<Duplicate>Doppelte Adresse</Duplicate>
+		<Comunication>Kommunikation</Comunication>
+		<Language>Sprache</Language>
+		<Update>Nach Aktualisierungen suchen</Update>
+	</MainMnu>
+	<Text>
+		<LngCap>Sprache auswaehlen</LngCap>
+		<SrvPort>Server Port</SrvPort>
+		<List>Szenario List</List>
+		<NoName>Szenario ohne Name</NoName>
+		<New>Neu</New>
+		<FrOpen>OPEN Fuehrung</FrOpen>
+		<Lighting>Beleuchtung</Lighting>
+		<Automation>Automation</Automation>
+		<Thermo>Thermoregolation</Thermo>
+		<Video>Sprechanlage</Video>
+		<Aux>Helfer</Aux>
+		<Sound>Schalldiffusion</Sound>
+		<What>Was</What>
+		<Option>Optionen</Option>
+		<Where>Wo</Where>
+		<OpenCmd>Open Fuehrung</OpenCmd>
+		<FrScen>Szenarios Zentrale</FrScen>
+		<Virt>"Virt." Modell</Virt>
+		<Manualprg>Szenarios Handprogrammierung</Manualprg>
+		<StartDelay>Verspaetung Anfang Programmierung (sec.)</StartDelay>
+		<TimedDelay>Verspaetung nach zeitgegebener Fuehrung (sec.)</TimedDelay>
+		<GroupDelay>Verspaetung nach Gruppefuehrung (sec.)</GroupDelay>
+		<CommandDelay>Verpaetung nach anderer Fuehrung (sec.)</CommandDelay>
+		<UpdChk>Laufende Ueberpruefung...</UpdChk>
+		<UpdReady>Verfuegbare Aktualisierung</UpdReady>
+		<UpdAct>Aktuelle Version</UpdAct>
+		<UpdNew>Server Version</UpdNew>
+		<UpdDwn>Neue Version unterladen</UpdDwn>
+		<NoUpd>Keine Aktualisierung verfuegbar
+Das Programm ist aktualisiert.</NoUpd>
+		<UpdErr>Unmoeglich die Seite zu finden.
+Manuell kontrollieren</UpdErr>
+		<Link>Link auf der Seite des Programms.</Link>
+		<SctAll>Alle auswaehlen</SctAll>
+		<WaitAck>Zeit zu warten Ack./Nack. (sec.)</WaitAck>
+		<Retry>Kontrolleversuchungszahlen Ack.(sec.)</Retry>
+		<FileLoad>File untergeladen</FileLoad>
+		
+	</Text>
+	<Button>
+		<SendCmd>Senden Scs</SendCmd>
+		<Insert>Im Szenario einfuegen</Insert>
+		<Lock>Blockieren</Lock>
+		<Unlock>Freigeben</Unlock>
+		<Activate>Szenario aktivieren</Activate>
+		<Activate2>Szenario ... aktivieren</Activate2>
+		<Delete>Szenario beseitigen</Delete>
+		<Deleteall>Alle beseitigen</Deleteall>
+		<Program>Szenario programmieren</Program>
+		<Remove>Wegschaffen</Remove>
+		<Removeall>Alle wegschaffen</Removeall>
+		<Chk>Fehler Ueberpruefen</Chk>
+		<DelProg>Frueher beseitigen</DelProg>
+		<Start>Start</Start>
+		<Stop>Stop</Stop>
+		<Program2>Selektionierte programmieren </Program2>
+	</Button>
+	<Message>
+		<Open>Oeffnen</Open>
+		<Save>Speichern</Save>
+		<NotFound>Der Datei</NotFound>
+		<NotFound2>wurde vergelen oder ist nicht mehr da.</NotFound2>
+		<Dirty>Der Szenariosdatei wurde geaendert aber nicht gespeichert.
+Moechten Sie weitergehen, ohne die Aenderungen zu speichern?</Dirty>
+		<DirtyCap>Datei nicht gespeichert</DirtyCap>
+		<StatDis>Vom Server auseinandergenommen</StatDis>
+		<StatCon>Verbunden mit</StatCon>
+		<Ssck>SuperSocket</Ssck>
+		<Sck>Socket Fuehrungen</Sck>
+		<WaitCon>Warten auf Verbindung . . .</WaitCon>
+		<NoAck>ACK Antwortlosigkeit nach 3 Versuchen.</NoAck>
+		<NoCon>Verbindung nicht verfuegbar</NoCon>
+		<IncOpen>Open Kodex unkorrekt</IncOpen>
+		<ErrCmd>Fehler von Fuehrung</ErrCmd>
+		<CmdOk>Fuehrungen akzeptiert</CmdOk>
+		<Sent>Gesendet</Sent>
+		<Deleted>Ausgeloeschen.</Deleted>
+		<Programmed>Programmiert.</Programmed>
+		<EndProgErr>Endprogrammierung nicht akzeptiert</EndProgErr>
+		<EndProgOk>Stop Szenarioprogrammierung</EndProgOk>
+		<ErrProg>Programmierung nicht akzeptiert</ErrProg>
+		<InProg>Szenario wird gerade programmiert</InProg>
+		<DelAll>Moechten Sie jede Szenario aus der Zentrale ausloeschen?</DelAll>
+		<DelAll2>Moechten Sie jede Fuehrungen des Szenarios ausloeschen?</DelAll2>
+		<DelScen>Moechten Sie den Szenario N. </DelScen>
+		<DelScen2>aus der Zentrale ausloeschen?</DelScen2>
+		<DelCap>Ausloeschung bestaetigen</DelCap>
+		<FullScen>Szenario voll, Sie haben 100 Automationen erreichen</FullScen>
+		<Commands>Fuehrungen</Commands>
+		<VirtErr>Unmoeglich den Szenariomodul zu finden</VirtErr>
+		<VirtErr2>Serie virt.</VirtErr2>
+		<VirtErr3>Die Adresse ist falsch oder der Szenariomodul ist kein Virtmodell.
+Gehe ich mit der Sendung der Frame weiter?</VirtErr3>
+		<VirtErr4>Unmoeglich den Modul zu ueberpruefen, weitergehen?</VirtErr4>
+		<Duplicate>Adresse schon da, irgendwie einfuegen?</Duplicate>
+		<Duplicate2>Adresse verdoppelt</Duplicate2>
+		<OldVer>Der untergeladene Datei wurde mit einer alten Version des Programms. Man empfehlt, die Parameter zu kontrollieren und ihn mit der neuen Version zu speichern, um die neuen Zweckdielichkeiten zu bekommen.</OldVer>
+	</Message>
+	<scs>
+		<Gen>General</Gen>
+		<Amb>Umgebung</Amb>
+		<Point>Punkt</Point>
+		<Gr>Gruppe</Gr>
+		<Src>Quelle</Src>
+		<Bus>Privater Staender</Bus>
+		<Bus2>Ortsbus</Bus2>
+		<Speed>Schnelligkeit</Speed>
+		<Speed2>Schnell</Speed2>
+		<Level>Stufe</Level>
+		<Temperature>Temperatur</Temperature>
+		<Program>Programm</Program>
+		<Scenario>Szenario</Scenario>
+		<Volume>Lautstaerke</Volume>
+		
+
+		<Lig0>Off / Off(Vel)</Lig0>
+		<Lig1>On / On(Vel)</Lig1>
+		<Lig2>20%</Lig2>
+		<Lig3>30%</Lig3>
+		<Lig4>40%</Lig4>
+		<Lig5>50%</Lig5>
+		<Lig6>60%</Lig6>
+		<Lig7>70%</Lig7>
+		<Lig8>80%</Lig8>
+		<Lig9>90%</Lig9>
+		<Lig10>100%</Lig10>
+		<Lig11>ON fuer 1 Min</Lig11>
+		<Lig12>ON fuer 2 Min</Lig12>
+		<Lig13>ON fuer 3 Min</Lig13>
+		<Lig14>ON fuer 4 Min</Lig14>
+		<Lig15>ON fuer 5 Min</Lig15>
+		<Lig16>ON fuer 15 Min</Lig16>
+		<Lig17>ON fuer 30 Sec</Lig17>
+		<Lig18>ON fuer 0.5 Sec</Lig18>
+		<Lig20>Blitzen fuer 0.5 Sec</Lig20>
+		<Lig21>Blitzen fuer 1 Sec</Lig21>
+		<Lig22>Blitzen fuer 1.5 Sec</Lig22>
+		<Lig23>Blitzen fuer 2 Sec</Lig23>
+		<Lig24>Blitzen fuer 2.5 Sec</Lig24>
+		<Lig25>Blitzen fuer 3 Sec</Lig25>
+		<Lig26>Blitzen fuer 3.5 Sec</Lig26>
+		<Lig27>Blitzen fuer 4 Sec</Lig27>
+		<Lig28>Blitzen fuer 4.5 Sec</Lig28>
+		<Lig29>Blitzen fuer 5 Sec</Lig29>
+		<Lig30>Dimmer +1 / +X</Lig30>
+		<Lig31>Dimmer -1 / -X</Lig31>
+
+		<Aut0>Stop</Aut0>
+		<Aut1>Ueber</Aut1>
+		<Aut2>Unter</Aut2>
+
+		<Tem0>Thermoschuetzzentrale</Tem0>
+		<Tem1>Frostschutzzentrale</Tem1>
+		<Tem2>Zentrale OFF</Tem2>
+		<Tem3>Zentrale Temperatur ..</Tem3>
+		<Tem4>Zentrale Szenario Heizung</Tem4>
+		<Tem5>Zentrale Szenario Klima.</Tem5>
+		<Tem6>Zentrale letzter Szenario</Tem6>
+		<Tem7>Zentrale Heizungprog.</Tem7>
+		<Tem8>Zentrale Klimaprog. </Tem8>
+		<Tem9>Zentrale letzter Programm</Tem9>
+		<Tem10>Thermoschutzzone</Tem10>
+		<Tem11>Frostschutzzone</Tem11>
+		<Tem12>Zone OFF</Tem12>
+		<Tem13>Zone Automatisch</Tem13>
+		<Tem14>Zone Temperatur ..</Tem14>
+		<Tem15>Im Raum Sondefreigebungszone</Tem15>
+
+		<Vid0>Schloss oeffnen</Vid0>
+		<Vid1>Treppelicht einschalten</Vid1>
+		<Vid2>Treppelicht ausschalten</Vid2>
+
+		<Aux0>Off</Aux0>
+		<Aux1>On</Aux1>
+		<Aux2>Toggle</Aux2>
+		<Aux3>Stop</Aux3>
+		<Aux4>Ueber</Aux4>
+		<Aux5>Unter</Aux5>
+		<Aux6>Befaehig</Aux6>
+		<Aux7>Unfaehig</Aux7>
+		<Aux8>Reset_GEN</Aux8>
+		<Aux9>Reset_BI</Aux9>
+		<Aux10>Reset_TRI</Aux10>
+
+		<Snd0>Verstaerker ON / Grundbandquelle</Snd0>
+		<Snd1>Verstaerker ON / Stereokanalquelle</Snd1>
+		<Snd2>Verstaerker OFF / Grundbandquelle</Snd2>
+		<Snd3>Verstaerker OFF / Stereokanalquelle</Snd3>
+		<Snd4>Grundbandquelle zyklieren</Snd4>
+		<Snd5>Stereokanalquelle zyklieren</Snd5>
+		<Snd6>Lautstaerke der Verstaerker anlegen</Snd6>
+
+	</scs>
+</Labels>

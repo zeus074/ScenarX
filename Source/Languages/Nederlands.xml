@@ -1,0 +1,209 @@
+<Labels>
+
+	<MainMnu>
+		<New>Nieuw</New>
+		<Open>Openen</Open>
+		<Recent>Recent</Recent>
+		<Save>Opslaan</Save>
+		<Exit>Einde</Exit>
+		<Option>Opties</Option>
+		<Duplicate>waarschuwen bij duplicaat adres</Duplicate>
+		<Comunication>Communicatie</Comunication>
+		<Language>Taal</Language>
+		<Update>Zoek naar updates</Update>
+	</MainMnu>
+	<Text>
+		<LngCap>Taalkeuze</LngCap>
+		<SrvPort>Serverpoort</SrvPort>
+		<List>Nummer scenario</List>
+		<NoName>Onbenoemd scenario</NoName>
+		<New>Nieuw</New>
+		<FrOpen>OPEN Commando </FrOpen>
+		<Lighting>Verlichting</Lighting>
+		<Automation>Automatisatie</Automation>
+		<Thermo>Klimaatregeling</Thermo>
+		<Video>Deurcommunicatie</Video>
+		<Aux>Auxiliair</Aux>
+		<Sound>Muziekdistributie</Sound>
+		<What>Wat</What>
+		<Option>Optie</Option>
+		<Where>Waar</Where>
+		<OpenCmd>Open Commando</OpenCmd>
+		<FrScen>Scenariomodule</FrScen>
+		<Virt>Model "Virt."</Virt>
+		<Manualprg>Manual Programmering scenario</Manualprg>
+		<StartDelay>Vertraging start programming (sec.)</StartDelay>
+		<TimedDelay>Vertraging na timed commando (sec.)</TimedDelay>
+		<GroupDelay>Vertraging na groepscommando (sec.)</GroupDelay>
+		<CommandDelay>Vertraging na andere commando's (sec.)</CommandDelay>
+		<UpdChk>Bezig met zoeken ...</UpdChk>
+		<UpdReady>Update beschikbaar</UpdReady>
+		<UpdAct>Huidige versie</UpdAct>
+		<UpdNew>Server versie</UpdNew>
+		<UpdDwn>Download de nieuwe versie</UpdDwn>
+		<NoUpd>Geen update beschikbaar
+Programma is up-to-date.</NoUpd>
+		<UpdErr>Update pagina niet gevonden.
+Check de update manueel.</UpdErr>
+		<Link>Open de homepage.</Link>
+		<SctAll>Selecteer alles</SctAll>
+		<WaitAck>Wachttijd voor Ack/Nack (sec.)</WaitAck>
+		<Retry>Aantal pogingen voor Ack (sec.)</Retry>
+		<FileLoad>Bestand geladen</FileLoad>
+
+	</Text>
+	<Button>
+		<SendCmd>Verst.->Scs</SendCmd>
+		<Insert>Toev. aan scenario</Insert>
+		<Lock>Vergr.</Lock>
+		<Unlock>Ontgr.</Unlock>
+		<Activate>Activeer scenario</Activate>
+		<Activate2>Activeer scenario ...</Activate2>
+		<Delete>Verwijder scenario</Delete>
+		<Deleteall>Verwijder alle</Deleteall>
+		<Program>Programmeer scenario</Program>
+		<Remove>Verwijder</Remove>
+		<Removeall>Verwijder alle</Removeall>
+		<Chk>Controleer op fouten</Chk>
+		<DelProg>Eerst wissen</DelProg>
+		<Start>Start</Start>
+		<Stop>Stop</Stop>
+		<Program2>Programma geselecteerd</Program2>
+	</Button>
+	<Message>
+		<Open>Open</Open>
+		<Save>Oplaan</Save>
+		<NotFound>Kan niet openen</NotFound>
+		<NotFound2>Bestand niet gevonden.</NotFound2>
+		<Dirty>Scenariobestand werd gewijzigd maar nog niet opgeslagen.
+Wenst u verder te gaan zonder de wijzigingen op te slaan?</Dirty>
+		<DirtyCap>Bestand niet opgeslagen</DirtyCap>
+		<StatDis>Afmelden van server</StatDis>
+		<StatCon>Verbonden</StatCon>
+		<Ssck>SuperSocket</Ssck>
+		<Sck>Commando Socket</Sck>
+		<WaitCon>Wacht op verbinding . . .</WaitCon>
+		<NoAck>Geen ACK na 3 pogingen.</NoAck>
+		<NoCon>Verbinding niet beschikbaar</NoCon>
+		<IncOpen>Open code niet correct</IncOpen>
+		<ErrCmd>Commando niet correct</ErrCmd>
+		<CmdOk>Alle commando's ok</CmdOk>
+		<Sent>Verstuurd</Sent>
+		<Deleted>Verwijderd.</Deleted>
+		<Programmed>Geprogrammeerd.</Programmed>
+		<EndProgErr>Fout in Einde Programmering commando</EndProgErr>
+		<EndProgOk>Stop programmering scenario</EndProgOk>
+		<ErrProg>Programmering is niet toegelaten</ErrProg>
+		<InProg>Programmering scenario</InProg>
+		<DelAll>Wenst u alle scenario's uit de scenariomodule te wissen?</DelAll>
+		<DelAll2>Wenst u alle commando's uit het scenario te wissen?</DelAll2>
+		<DelScen>Wenst u scenario N te verwijderen </DelScen>
+		<DelScen2>uit de scenariomodule ?</DelScen2>
+		<DelCap>Bevestig verwijderen</DelCap>
+		<FullScen>Scenario is vol, 100 acties</FullScen>
+		<Commands>Commando's</Commands>
+		<VirtErr>Scenariomodule niet gevonden</VirtErr>
+		<VirtErr2>virt. serie</VirtErr2>
+		<VirtErr3>Verkeerd adres of scenariomodule is geen virt. model.
+Wenst u verver te gan met het versturen van de frames?</VirtErr3>
+		<VirtErr4>Kan scenariomodule niet controleren, verdergaan?</VirtErr4>
+		<Duplicate>Adres reeds ingevoegd, wenst u het toch in te voegen?</Duplicate>
+		<Duplicate2>Duplicaat adres</Duplicate2>
+		<OldVer>Het geladen bestand gemaakt met een oudere versie van het programma, 
+verifieer de parameters en sla het op met de nieuwe versie om gebruik te maken van de nieuwe functies.</OldVer>
+		
+	</Message>
+	<scs>
+		<Gen>Algemeen</Gen>
+		<Amb>Zone</Amb>
+		<Point>Adres</Point>
+		<Gr>Groep</Gr>
+		<Src>Bron</Src>
+		<Bus>Private stijgkolom</Bus>
+		<Bus2>Local Bus</Bus2>
+		<Speed>Speed</Speed>
+		<Speed2>fast</Speed2>
+		<Level>Level</Level>
+		<Temperature>Temperatuur</Temperature>
+		<Program>Programma</Program>
+		<Scenario>Scenario</Scenario>
+		<Volume>Volume</Volume>
+
+		<Lig0>Off / Off(Snelh)</Lig0>
+		<Lig1>On / On(Snelh)</Lig1>
+		<Lig2>20%</Lig2>
+		<Lig3>30%</Lig3>
+		<Lig4>40%</Lig4>
+		<Lig5>50%</Lig5>
+		<Lig6>60%</Lig6>
+		<Lig7>70%</Lig7>
+		<Lig8>80%</Lig8>
+		<Lig9>90%</Lig9>
+		<Lig10>100%</Lig10>
+		<Lig11>ON getimed 1 Min</Lig11>
+		<Lig12>ON getimed 2 Min</Lig12>
+		<Lig13>ON getimed 3 Min</Lig13>
+		<Lig14>ON getimed 4 Min</Lig14>
+		<Lig15>ON getimed 5 Min</Lig15>
+		<Lig16>ON getimed 15 Min</Lig16>
+		<Lig17>ON getimed 30 Sec</Lig17>
+		<Lig18>ON getimed 0.5 Sec</Lig18>
+		<Lig20>Knipperen voor 0.5 Sec</Lig20>
+		<Lig21>Knipperen voor 1 Sec</Lig21>
+		<Lig22>Knipperen voor 1.5 Sec</Lig22>
+		<Lig23>Knipperen voor 2 Sec</Lig23>
+		<Lig24>Knipperen voor 2.5 Sec</Lig24>
+		<Lig25>Knipperen voor 3 Sec</Lig25>
+		<Lig26>Knipperen voor 3.5 Sec</Lig26>
+		<Lig27>Knipperen voor 4 Sec</Lig27>
+		<Lig28>Knipperen voor 4.5 Sec</Lig28>
+		<Lig29>Knipperen voor 5 Sec</Lig29>
+		<Lig30>Dimmer +1 / +X</Lig30>
+		<Lig31>Dimmer -1 / -X</Lig31>
+
+		<Aut0>Stop</Aut0>
+		<Aut1>Op</Aut1>
+		<Aut2>Neer</Aut2>
+
+		<Tem0>Centr. Therm. besch</Tem0>
+		<Tem1>Centr. antivries</Tem1>
+		<Tem2>Centr. UIT</Tem2>
+		<Tem3>Centr. Temperatuur ..</Tem3>
+		<Tem4>Centr. Scenario verwarming</Tem4>
+		<Tem5>Centr. Scenario koeling</Tem5>
+		<Tem6>Centr. laatste scenario</Tem6>
+		<Tem7>Centr. Prog. verwarming</Tem7>
+		<Tem8>Centr. Prog. koeling</Tem8>
+		<Tem9>Centr. laatste programma</Tem9>
+		<Tem10>Zone Therm. besch</Tem10>
+		<Tem11>Zone antivries</Tem11>
+		<Tem12>Zone OFF</Tem12>
+		<Tem13>Zone Automatisch</Tem13>
+		<Tem14>Zone Temperatuur ..</Tem14>
+		<Tem15>Zone Deblokkeer voeler in zone</Tem15>
+
+		<Vid0>Open deurslot</Vid0>
+		<Vid1>Trapverlichting AAN</Vid1>
+		<Vid2>Trapverlichting UIT</Vid2>
+
+		<Aux0>Off</Aux0>
+		<Aux1>On</Aux1>
+		<Aux2>Toggle</Aux2>
+		<Aux3>Stop</Aux3>
+		<Aux4>Op</Aux4>
+		<Aux5>Neer</Aux5>
+		<Aux6>Actief</Aux6>
+		<Aux7>Niet actief</Aux7>
+		<Aux8>Reset_GEN</Aux8>
+		<Aux9>Reset_BI</Aux9>
+		<Aux10>Reset_TRI</Aux10>
+
+		<Snd0>Verst ON / baseband br.</Snd0>
+		<Snd1>Verst ON / stereo kanaal br.</Snd1>
+		<Snd2>Verst OFF / baseband br.</Snd2>
+		<Snd3>Verst OFF / stereo kanaal br.</Snd3>
+		<Snd4>cyclisch br. baseband</Snd4>
+		<Snd5>cyclisch br. stereo kanaal</Snd5>
+		<Snd6>Stel volume verst. in</Snd6>
+	</scs>
+</Labels>

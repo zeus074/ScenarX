@@ -1,0 +1,209 @@
+<Labels>
+
+	<MainMnu>
+		<New>New</New>
+		<Open>Open</Open>
+		<Recent>Recent</Recent>
+		<Save>Save</Save>
+		<Exit>Exit</Exit>
+		<Option>Option</Option>
+		<Duplicate>warning on address duplicate</Duplicate>
+		<Comunication>Comunication</Comunication>
+		<Language>Language</Language>
+		<Update>Check for update</Update>
+	</MainMnu>
+	<Text>
+		<LngCap>Language select</LngCap>
+		<SrvPort>Server Port</SrvPort>
+		<List>Scenari list commands</List>
+		<NoName>Unnamed scenario</NoName>
+		<New>New</New>
+		<FrOpen>OPEN Command </FrOpen>
+		<Lighting>Lighting</Lighting>
+		<Automation>Automation</Automation>
+		<Thermo>Temperature Control</Thermo>
+		<Video>Video door entry</Video>
+		<Aux>Auxiliary</Aux>
+		<Sound>Sound system</Sound>
+		<What>What</What>
+		<Option>Option</Option>
+		<Where>Where</Where>
+		<OpenCmd>Open Command</OpenCmd>
+		<FrScen>Scenario Module</FrScen>
+		<Virt>Model "Virt."</Virt>
+		<Manualprg>Manual Programming scenario</Manualprg>
+		<StartDelay>Start programming delay (sec.)</StartDelay>
+		<TimedDelay>Delay after timed command (sec.)</TimedDelay>
+		<GroupDelay>Dealy after group command (sec.)</GroupDelay>
+		<CommandDelay>Delay after other command (sec.)</CommandDelay>
+		<UpdChk>Check in progress ...</UpdChk>
+		<UpdReady>Update available</UpdReady>
+		<UpdAct>Current version</UpdAct>
+		<UpdNew>Server version</UpdNew>
+		<UpdDwn>Download the new version</UpdDwn>
+		<NoUpd>No Update available
+Program is up-to-date.</NoUpd>
+		<UpdErr>Update page not found.
+Please, manual check update.</UpdErr>
+		<Link>Link to the program home page.</Link>
+		<SctAll>Select all</SctAll>
+		<WaitAck>Time to wait for Ack/Nack (sec.)</WaitAck>
+		<Retry>Number of tries for Ack (sec.)</Retry>
+		<FileLoad>File loaded</FileLoad>
+
+	</Text>
+	<Button>
+		<SendCmd>Send -> Scs</SendCmd>
+		<Insert>Insert on scenario</Insert>
+		<Lock>Lock</Lock>
+		<Unlock>Unlock</Unlock>
+		<Activate>Activate scenario</Activate>
+		<Activate2>Activate scenario ...</Activate2>
+		<Delete>Delete scenario</Delete>
+		<Deleteall>Delete All</Deleteall>
+		<Program>Program scenario</Program>
+		<Remove>Remove</Remove>
+		<Removeall>Remove all</Removeall>
+		<Chk>Check errors</Chk>
+		<DelProg>Delete before</DelProg>
+		<Start>Start</Start>
+		<Stop>Stop</Stop>
+		<Program2>Program selected</Program2>
+	</Button>
+	<Message>
+		<Open>Open</Open>
+		<Save>Save</Save>
+		<NotFound>Can't open</NotFound>
+		<NotFound2>File not found.</NotFound2>
+		<Dirty>File scenario was modified but not yet saved.
+Do you want continue without save change ?</Dirty>
+		<DirtyCap>File not saved</DirtyCap>
+		<StatDis>Logout from Server</StatDis>
+		<StatCon>Connected</StatCon>
+		<Ssck>SuperSocket</Ssck>
+		<Sck>Command Socket</Sck>
+		<WaitCon>Waiting for connection . . .</WaitCon>
+		<NoAck>Not ACK after 3 Attemps.</NoAck>
+		<NoCon>Connection not aviable</NoCon>
+		<IncOpen>Open code not correct</IncOpen>
+		<ErrCmd>Command non correct</ErrCmd>
+		<CmdOk>All commands go</CmdOk>
+		<Sent>Sent</Sent>
+		<Deleted>Deleted.</Deleted>
+		<Programmed>Programmed.</Programmed>
+		<EndProgErr>Error in End Program command</EndProgErr>
+		<EndProgOk>Stop program scenario</EndProgOk>
+		<ErrProg>Programming is not accepted</ErrProg>
+		<InProg>Programming scenario</InProg>
+		<DelAll>Do you want clear All from scenario module ?</DelAll>
+		<DelAll2>Do you want clear all commands from scenario ?</DelAll2>
+		<DelScen>Do you want delete scenario N.</DelScen>
+		<DelScen2>from scenario module ?</DelScen2>
+		<DelCap>Delete confirm</DelCap>
+		<FullScen>Scenario is full, 100 automation inserted</FullScen>
+		<Commands>Commands</Commands>
+		<VirtErr>Scenario module not fount</VirtErr>
+		<VirtErr2>virt. series</VirtErr2>
+		<VirtErr3>Wrong address or scenario module is not virt. model.
+Do you want continue to send the frame ?</VirtErr3>
+		<VirtErr4>Unable to verify the scenario module, Continue?</VirtErr4>
+		<Duplicate>Address already inserted, do you want insert it anyway ?</Duplicate>
+		<Duplicate2>Duplicate address</Duplicate2>
+		<OldVer>The file loaded was created with an older version of the program, 
+you should check the parameters and save it with the new version to get the new features.</OldVer>
+		
+	</Message>
+	<scs>
+		<Gen>General</Gen>
+		<Amb>environment</Amb>
+		<Point>Point</Point>
+		<Gr>Group</Gr>
+		<Src>Source</Src>
+		<Bus>Private Riser</Bus>
+		<Bus2>Local Bus</Bus2>
+		<Speed>Speed</Speed>
+		<Speed2>fast</Speed2>
+		<Level>Level</Level>
+		<Temperature>Temperature</Temperature>
+		<Program>Program</Program>
+		<Scenario>Scenario</Scenario>
+		<Volume>Volume</Volume>
+
+		<Lig0>Off / Off(Spd)</Lig0>
+		<Lig1>On / On(Spd)</Lig1>
+		<Lig2>20%</Lig2>
+		<Lig3>30%</Lig3>
+		<Lig4>40%</Lig4>
+		<Lig5>50%</Lig5>
+		<Lig6>60%</Lig6>
+		<Lig7>70%</Lig7>
+		<Lig8>80%</Lig8>
+		<Lig9>90%</Lig9>
+		<Lig10>100%</Lig10>
+		<Lig11>ON timed 1 Min</Lig11>
+		<Lig12>ON timed 2 Min</Lig12>
+		<Lig13>ON timed 3 Min</Lig13>
+		<Lig14>ON timed 4 Min</Lig14>
+		<Lig15>ON timed 5 Min</Lig15>
+		<Lig16>ON timed 15 Min</Lig16>
+		<Lig17>ON timed 30 Sec</Lig17>
+		<Lig18>ON timed 0.5 Sec</Lig18>
+		<Lig20>Blinking for 0.5 Sec</Lig20>
+		<Lig21>Blinking for 1 Sec</Lig21>
+		<Lig22>Blinking for 1.5 Sec</Lig22>
+		<Lig23>Blinking for 2 Sec</Lig23>
+		<Lig24>Blinking for 2.5 Sec</Lig24>
+		<Lig25>Blinking for 3 Sec</Lig25>
+		<Lig26>Blinking for 3.5 Sec</Lig26>
+		<Lig27>Blinking for 4 Sec</Lig27>
+		<Lig28>Blinking for 4.5 Sec</Lig28>
+		<Lig29>Blinking for 5 Sec</Lig29>
+		<Lig30>Dimmer +1 / +X</Lig30>
+		<Lig31>Dimmer -1 / -X</Lig31>
+
+		<Aut0>Stop</Aut0>
+		<Aut1>Up</Aut1>
+		<Aut2>Down</Aut2>
+
+		<Tem0>Unit Thermal Prot.</Tem0>
+		<Tem1>Unit antifreeze</Tem1>
+		<Tem2>Unit OFF</Tem2>
+		<Tem3>Unit Temperature ..</Tem3>
+		<Tem4>Unit Heating Scenario</Tem4>
+		<Tem5>Unit Air-cond. scenario</Tem5>
+		<Tem6>Unit last scenario</Tem6>
+		<Tem7>Unit Heating Prog.</Tem7>
+		<Tem8>Unit Air-cond. Prog.</Tem8>
+		<Tem9>Unit last program</Tem9>
+		<Tem10>Zone Thermal Prot.</Tem10>
+		<Tem11>Zone antifreeze</Tem11>
+		<Tem12>Zone OFF</Tem12>
+		<Tem13>Zone Automatic</Tem13>
+		<Tem14>Zone Temperature ..</Tem14>
+		<Tem15>Zone unlock the probe in room</Tem15>
+
+		<Vid0>Open door lock</Vid0>
+		<Vid1>Turn on stair light</Vid1>
+		<Vid2>Turn off Stair Light</Vid2>
+
+		<Aux0>Off</Aux0>
+		<Aux1>On</Aux1>
+		<Aux2>Toggle</Aux2>
+		<Aux3>Stop</Aux3>
+		<Aux4>Up</Aux4>
+		<Aux5>Down</Aux5>
+		<Aux6>Enable</Aux6>
+		<Aux7>Disabled</Aux7>
+		<Aux8>Reset_GEN</Aux8>
+		<Aux9>Reset_BI</Aux9>
+		<Aux10>Reset_TRI</Aux10>
+
+		<Snd0>Ampli ON / so. baseband</Snd0>
+		<Snd1>Ampli ON / so. stereo channel</Snd1>
+		<Snd2>Ampli OFF / so. baseband</Snd2>
+		<Snd3>Ampli OFF / so. stereo cannel</Snd3>
+		<Snd4>cycle so. baseband</Snd4>
+		<Snd5>cycle so. stereo cannel</Snd5>
+		<Snd6>Set Ampli Volume</Snd6>
+	</scs>
+</Labels>
